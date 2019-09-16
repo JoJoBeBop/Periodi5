@@ -22,7 +22,6 @@ const Home = () => {
 
 
             </ul>
-        <h3 className="MenuText">more stuff</h3>
 
 
             {/*      <video id="background-video" loop autoPlay muted>

@@ -84,3 +84,10 @@ body {
   font-size: 25px;
 
 }
+
+.Footer {
+  background-color: #00b6f0;
+  padding: 20px;
+  margin-top: 1em;
+  color: white;
+}

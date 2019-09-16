@@ -5,7 +5,6 @@ const Streams = () => {
     <div className="StreamContainer">
 
       <div className="StreamCard">
-        <h3>Stuff</h3>
       </div>
 
     </div>
