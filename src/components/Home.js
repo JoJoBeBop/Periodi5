@@ -1,7 +1,7 @@
 import React from 'react';
 import '../App.css';
-import mvideo from "../samples/metropolia helsinki.mp4"
-
+import mvideo from "../samples/metropolia helsinki_Trim.mp4"
+import { Link, animateScroll as scroll } from "react-scroll";
 
 const Home = () => {
 
@@ -15,8 +15,25 @@ const Home = () => {
             <img src="https://fl-cdn.scdn1.secure.raxcdn.com/files/sites/756/parhaassaseurassa3.svg" alt="Espoo Liikkuu" className="MenuImage"/>
 
             <ul className="MenuContainer">
-                <li className="MenuItems">Striimit</li>
-                <li className="MenuItems">Aikataulut</li>
+                <Link
+                    className="MenuItems"
+                    activeClass="active"
+                    to="StreamContainer"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration= {500}
+                >Striimit</Link>
+                <Link
+                    className="MenuItems"
+
+                    activeClass="active"
+                    to="TimeContainer"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration= {500}
+                >Aikataulu</Link>
                 <li className="MenuItems">#Badabing</li>
                 <li className="MenuItems">Haku</li>
 
